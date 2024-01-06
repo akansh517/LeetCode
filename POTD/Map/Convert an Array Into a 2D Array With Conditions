@@ -1,0 +1,42 @@
+class Solution {
+    public List<List<Integer>> findMatrix(int[] nums) {
+        List<List<Integer>> ans=new ArrayList<>();
+        int mp[]=new int[nums.length+1];    //1<=nums[i]<=nums.length use array of size n to store frequency bcz max element of the array can contain nums.length last
+        for(int num:nums){
+            int freq=mp[num];
+            if(freq==ans.size()){
+                ans.add(new ArrayList<>());
+            }
+            ans.get(freq).add(num);
+            mp[num]++;
+        }
+        return ans;
+    }
+}
+
+// We are visiting each element only once of nums array
+// T.C:O(n)
+// S.C:O(n) 
+
+
+
+// class Solution {
+//     public List<List<Integer>> findMatrix(int[] nums) {
+//         List<List<Integer>> ans=new ArrayList<>();
+//         Map<Integer,Integer> mp=new HashMap<>();
+//         for(int num:nums){
+//             int freq=mp.get(num)==null?0:mp.get(num);
+//             if(freq==ans.size()){
+//                 ans.add(new ArrayList<>());
+//             }
+//             ans.get(freq).add(num);
+//             mp.put(num,mp.getOrDefault(num,0)+1);
+//         }
+//         return ans;
+//     }
+// }
+
+
+// We are visiting each element only once of nums array
+// T.C:O(n)
+// S.C:O(n) due to the map
