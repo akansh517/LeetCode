@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Solution {
     public int minOperations(int[] nums) {
         Map<Integer,Integer> mp=new HashMap<>();
@@ -94,4 +93,4 @@ class Solution {
 // T.C:O(n) Iterating over nums to count each number will incur a time complexity of O(n). The subsequent loop iterating over counter will also incur a time complexity of O(n) since there could be at most n unique elements in the hash map.
 
 // S.C:O(n) mp will incur a space complexity of O(n) since there could be at most n elements stored in the hash map in the worst-case scenario.
->>>>>>> 0f2e0ec57629a0015145fa1c48f20a4ce85a039c
+
