@@ -15,7 +15,6 @@
  */
 class Solution {
     public int maxDifference(TreeNode root,int minVal,int maxVal){
-        int maxDiff=-1;
         if(root==null){
             return Math.abs(maxVal-minVal);
         }
