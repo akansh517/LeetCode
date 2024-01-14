@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public int minOperations(int[] nums, int k) {
         int ans=0;
         for(int bit=0;bit<=20;bit++){
