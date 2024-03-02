@@ -1,7 +1,7 @@
 class Solution {
     public int maximumLength(String s) {
         Map<String,Integer> mp=new HashMap<>();
-        for(int i=0;i<s.length();){
+        for(int i=0;i<s.length();){ 
             StringBuilder sb=new StringBuilder(); // Use StringBuilder for efficient concatenation
             int j=i;
             while(j<s.length() && s.charAt(j)==s.charAt(i)){
