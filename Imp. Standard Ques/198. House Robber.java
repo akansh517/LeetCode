@@ -5,7 +5,7 @@ class Solution {
         if(i>=n){
             return 0;
         }
-        if(dp[i]!=-1){
+        if(dp[i]!=-1){   
             return dp[i];
         }
         int steal=nums[i]+solve(i+2,nums);
