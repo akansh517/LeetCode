@@ -2,7 +2,7 @@ class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
         //all Possible combination will be from these combinations only
         List<Integer> allPossible=List.of(
-            12,23,34,45,56,67,78,89,
+            12,23,34,45,56,67,78,89, 
             123,234,345,456,567,678,789,
             1234,2345,3456,4567,5678,6789,
             12345,23456,34567,45678,56789,
