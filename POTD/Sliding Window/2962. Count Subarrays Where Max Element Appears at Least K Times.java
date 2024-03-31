@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  
     public long countSubarrays(int[] nums, int k) {
         int i=0;
         int j=0;
