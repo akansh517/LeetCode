@@ -5,7 +5,7 @@ class Solution {
         //arr[1] = count of student who like square
         for(int stud:students){
             arr[stud]++;
-        }
+        } 
         int n=students.length;
         for(int i=0;i<n;i++){
             int sandwich=sandwiches[i];
