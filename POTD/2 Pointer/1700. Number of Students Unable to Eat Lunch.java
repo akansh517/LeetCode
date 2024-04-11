@@ -1,4 +1,4 @@
-class Solution {
+class Solution {  
     public int countStudents(int[] students, int[] sandwiches) {
         int arr[]=new int[2];
         //arr[0] = count of student who like circular
