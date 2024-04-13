@@ -1,11 +1,11 @@
-class Solution {
+class Solution {  
     public int countStudents(int[] students, int[] sandwiches) {
         int arr[]=new int[2];
         //arr[0] = count of student who like circular
         //arr[1] = count of student who like square
         for(int stud:students){
             arr[stud]++;
-        }
+        } 
         int n=students.length;
         for(int i=0;i<n;i++){
             int sandwich=sandwiches[i];
