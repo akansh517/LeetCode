@@ -29,6 +29,7 @@ class Solution {
         Queue<Integer> que = new LinkedList<>();
         Stack<Integer> st = new Stack<>();
 
+        
         for (int i = 0; i < len; i++) {
             st.push(sandwiches[len - i - 1]);
             que.add(students[i]);
