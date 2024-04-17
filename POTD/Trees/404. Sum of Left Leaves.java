@@ -1,4 +1,4 @@
-/**
+  /**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
@@ -12,7 +12,7 @@
  *         this.right = right;
  *     }
  * }
- */
+ */  
 class Solution {
     public int solve(TreeNode curr,TreeNode parent){
         if(curr==null){
