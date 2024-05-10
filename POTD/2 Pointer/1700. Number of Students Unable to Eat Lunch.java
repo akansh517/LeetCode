@@ -15,7 +15,7 @@ class Solution {
             arr[sandwich]--;
         }
         return 0;
-    }
+    } 
 }
 // T.C:O(n+m)
 // S.C:O(1)
