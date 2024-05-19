@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public List<Integer> sequentialDigits(int low, int high) {
         //all Possible combination will be from these combinations only
         List<Integer> allPossible=List.of(
