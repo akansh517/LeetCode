@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     int n;
     public boolean isPalindrome(String s,int l,int r){
         while(l<r){
